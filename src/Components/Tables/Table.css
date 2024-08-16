@@ -1,0 +1,28 @@
+.tableheader {
+    text-align: center; /* Center-align table headers */
+  }
+  
+  .text-center {
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Center the dropdown button in the table cell */
+  .table-dropdown-center .dropdown-toggle {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .footer-left {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+    padding: 1rem; /* Optional: Adjust padding as needed */
+  }
+
+  /* Align the footer content to the right */
+  .footer-right {
+    display: flex;
+    justify-content: flex-end; /* Align items to the end (right) */
+    padding: 1rem; /* Optional: Adjust padding as needed */
+  }
